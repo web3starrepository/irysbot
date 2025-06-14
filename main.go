@@ -185,6 +185,12 @@ func processTask(task interface{}) {
 }
 
 func main() {
+	// 显示作者信息
+	fmt.Println("\n✨ Irys Faucet Bot")
+	fmt.Println("📱 Author: https://twitter.com/my_pyy")
+	fmt.Println("🌐 李甫清")
+	fmt.Println("----------------------------------------\n")
+
 	// 解析config.json
 	file, err := os.ReadFile("config.json")
 	if err != nil {
