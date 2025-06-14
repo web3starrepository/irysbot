@@ -3,6 +3,11 @@
 这是一个用于自动领取 Irys Faucet 的机器人程序。使用 Go 语言开发，支持多线程并发处理多个钱包地址。
 ![运行效果图](images/image.png)
 
+
+- [DataImpulse 住宅动态代理](https://dataimpulse.com/?aff=38616) - 1$/1GB 的住宅动态代理服务
+- [NoCaptcha 验证码解码平台](https://www.nocaptcha.io/register?c=Ka7soJ) - 验证码解码服务 
+
+
 ## 功能特点
 
 - 🚀 支持多线程并发处理
@@ -36,10 +41,9 @@ go mod tidy
 ```json
 {
     "nocaptcha": "你的nocaptcha token",
-    "dynamicProxy": "你的代理地址，例如：http://127.0.0.1:7890"
+    "dynamicProxy": "你的代理地址，例如：http://127.0.0.1:7890",
     "retry": 10 
 }
-
 ```
 
 4. 创建钱包文件：
@@ -127,3 +131,8 @@ go run main.go
 ## 许可证
 
 MIT License 
+
+## 相关服务
+
+- [DataImpulse 住宅动态代理](https://dataimpulse.com/?aff=38616) - 1$/1GB 的住宅动态代理服务
+- [NoCaptcha 验证码解码平台](https://www.nocaptcha.io/register?c=Ka7soJ) - 验证码解码服务 
